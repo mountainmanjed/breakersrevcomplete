@@ -1,0 +1,28 @@
+Sound Driver = Makoto Version 3.0
+
+Guess these notes can be used for the slew of games that used this driver.
+
+;---------------------------------------
+Address map from NGDev wiki
+
+The NEO-ZMC chip in cartridges allows ROM bankswitching.
+
+Start	End	Size	Description
+$0000	$7FFF	32KiB	Static main code bank (start of the M1 ROM)
+$8000	$BFFF	16KiB	Switchable bank 3
+$C000	$DFFF	8KiB	Switchable bank 2
+$E000	$EFFF	4KiB	Switchable bank 1
+$F000	$F7FF	2KiB	Switchable bank 0
+$F800	$FFFF	2KiB	Work RAM
+
+;---------------------------------------
+Work Ram locations They can change
+Real Bout 1 offset = #-$C
+
+
+
+
+
+channel 5 adpcm - breakers fd2c
+
+
