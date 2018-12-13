@@ -1,2 +1,2 @@
 # breakersrevcomplete
-version 1
+only builds half the game
